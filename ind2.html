@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script type="text/javascript"></script>
+        <script type="text/javascript" src="/js/calc.js"></script>
+    </head>
+    <body>
+        <select size="1" id="tarif" onchange='Calc()'>
+            <option value="0"></option>
+            <option value="10">Тариф 1</option>
+            <option value="20">Тариф 2</option>
+            <option value="30">Тариф 3</option>
+        </select>
+        <select size="1" id="srok" onchange='Calc()'>
+            <option value="0"></option>
+            <option value="1">1 месяц</option>
+            <option value="2">2 месяца</option>
+            <option value="3">3 месяца</option>
+        </select>
+        <input type='text' id='summ' />
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+	<title>Страница</title>
+	<link rel="stylesheet" href="/css/template.css" type="text/css" />
+	<SCRIPT type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></SCRIPT>
+	<script type="text/javascript" src="/js/calculator.js"></script>
+</head>
+<body>
+	<form>
+		<div>
+            <label>Первое число:</label>
+            <select size="1" id="first">
+                <option value="0"></option>
+                <option value="10">Тариф 1</option>
+                <option value="20">Тариф 2</option>
+                <option value="30">Тариф 3</option>
+            </select>
+            <!--<input type="text" name="first" placeholder="Введите число"/>-->
+        </div>
+		<div>
+            <label>Второе число:</label>
+            <select size="1" id="second">
+                <option value="0"></option>
+                <option value="10">Тариф 1</option>
+                <option value="20">Тариф 2</option>
+                <option value="30">Тариф 3</option>
+            </select>
+            <!--<input type="text" name="second" placeholder="Введите число"/>-->
+        </div>
+		<!--<div><label>Выберите действие:</label>
+			<select name="action">
+				<option>+</option>
+				<option>-</option>
+				<option selected>*</option>
+				<option>/</option>
+			</select>
+		</div>
+        <div><label>Результат:</label><input type="text" name="result" placeholder="Ответ"/></div>-->
+        <input type="button" value="Рассчитать" name="send">
+        <input type="reset" value="Сброс"><br><br>
+        <div>
+            <!--Результат <input type="text" id="summ">-->
+        </div>
+        <div id="result"></div>
+    </form>
+</body>
+</html>
